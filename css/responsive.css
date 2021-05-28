@@ -1,0 +1,46 @@
+
+
+@media screen and (max-width: 800px) {
+    
+.img-header{
+    width: 100%;
+}
+
+.img-featured{
+    width: 100px;
+}
+
+.task1{
+    transform: translateY(0px) translateX(-25px) scale(0.7);
+}
+
+.task2{
+    transform: translateY(100px) translateX(-25px) scale(0.7);
+}
+
+}
+
+@media screen and (max-width: 600px) {
+.img-featured{
+    width: 60px !important;
+}
+
+.card-featured:hover{
+    transform: scale(0.8);
+}
+
+.card-featured-active{
+    transform: scale(0.8);
+}
+
+}
+
+@media screen and (max-width: 1199px) {
+  
+
+}
+
+@media screen and (max-width: 992px) {
+  
+
+}

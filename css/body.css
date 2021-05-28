@@ -1,0 +1,305 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+section{
+    margin-top: 10rem;
+    position: relative; 
+}
+
+footer{
+    background-color: #353535;
+    padding-top: 4rem;
+    margin-top: 10rem;
+}
+
+.hr{
+    width: 50px;
+    height: 5px;
+    background-color:#185adb;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.dot{
+    width: 16px;
+    height: 16px;
+    background-color:#fff;
+    border: 5px solid #185adb;
+    border-radius: 16px;
+    margin-top: 12px;
+}
+
+.link-content{
+    text-decoration: none;
+    color: #185adb;
+    transition: 600ms;
+}
+
+.link-content:hover{
+    color: #11409e;
+}
+
+.title-header{
+    font-weight: bold;
+    color: rgb(160, 159, 159);
+}
+
+.title-footer{
+    font-weight: lighter;
+    color: rgb(160, 159, 159);
+}
+
+.title-header h1{
+    font-weight:bold;
+    color: #01193c;
+}
+
+.title-header h2{
+    font-weight:bold;
+    color: #01193c;
+}
+
+.title-header h4{
+    font-weight:bold;
+    color: #01193c;
+}
+
+.title-header h6{
+    font-weight:bold;
+    color: #01193c;
+    transition: 600ms;
+}
+
+.card-hover-shadow{
+    transition: 600ms;
+}
+
+.card-hover-shadow-active{
+    box-shadow: 0px 5px 20px gray;
+    cursor: pointer;
+}
+
+.card-hover-shadow:hover{
+    box-shadow: 0px 5px 20px gray;
+    cursor: pointer;
+}
+
+.card-hover-shadow:hover h6{
+    color: #185adb;
+}
+
+
+.title-header h5{
+    font-weight: bold;
+    color: #01193c;
+}
+
+.text-custom{
+    color: #185adb !important;
+}
+
+.circle1{
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    background-color: #f8f8fb;
+    position: absolute;
+    left: -200px;
+    z-index: -1;
+}
+
+.circle2{
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    background-color: #f8f8fb;
+    position: absolute;
+    right: -50px;
+    z-index: -1;
+}
+
+.circle3{
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    background-color: #f8f8fb;
+    position: absolute;
+    right: -75px;
+    z-index: -1;
+}
+
+.circle4{
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    background-color: #f8f8fb;
+    position: absolute;
+    right: -150px;
+    top: 50px;
+    z-index: -1;
+}
+
+.bg-custom{
+    background-color: #185adb !important;
+}
+
+.btn-custom{
+    background-color: #185adb !important;
+    transition: 600ms;
+    font-weight: bold;
+    color: #fff;
+    width: 120px;
+    box-shadow: 0px 5px 20px #1859db8e;
+}
+
+.btn-outline-custom{
+    color: #fff;
+    border : 2px solid #fff;
+    transition: 600ms;
+    
+}
+
+
+.btn-outline-custom:hover{
+    color: #fff;
+    border : 2px solid #185adb;
+    background-color: #185adb;
+    
+}
+
+.btn-custom:hover{
+    background-color: #11409e !important;
+    color: #fff;
+}
+
+
+/* portofolio */
+
+.task .active{
+    border: dashed 4px #185adb !important;
+    box-shadow: 0px 5px 20px gray;
+}
+
+.task1{
+    width: 225px;
+    height: 225px;
+    border-radius: 225px;
+    border: dashed 4px #f8f8fb;
+    transition: 600ms;
+    transform: translateY(-100px);
+}
+
+.task2{
+    width: 225px;
+    height: 225px;
+    border-radius: 225px;
+    border: dashed 4px #f8f8fb;
+    transition: 600ms;
+    transform: translateY(-50px);
+}
+
+.task1:hover{
+    border: dashed 4px #185adb !important;
+    box-shadow: 0px 5px 20px gray;  
+}
+
+.task2:hover{
+    border: dashed 4px #185adb !important;
+    box-shadow: 0px 5px 20px gray;  
+}
+
+/* featured */
+.card-backdrop{
+    background-color: #185adb;
+    border-radius: 16px;
+    box-shadow: 0px 5px 20px gray;
+}
+
+.card-featured{
+    transition: 600ms;
+    background-color: #f8f8fb;
+    border-radius: 16px;
+}
+
+.card-featured-active{
+    cursor: pointer;
+    transform: rotate(10deg);
+    background-color: #164bb5;
+    border-radius: 16px;
+}
+
+.card-featured-active h6{
+    color: #fff !important;
+}
+
+.card-featured:hover{
+    cursor: pointer;
+    transform: rotate(10deg);
+    background-color: #164bb5;
+    
+}
+
+.card-featured:hover h6{
+    color: #fff !important;
+}
+
+/* pricing */
+.card-pricing{
+   transition: 600ms;
+   border: dashed 4px #f8f8fb !important;
+}
+
+.card-pricing:hover{
+    box-shadow: 0px 5px 20px gray;
+    cursor: pointer;
+    border: dashed 4px #185adb !important;
+}
+
+.card-pricing:hover h4{
+    color: #185adb !important;
+}
+
+.card-pricing-active{
+    transition: 600ms;
+    box-shadow: 0px 5px 20px gray;
+    cursor: pointer;
+    border: dashed 4px #185adb !important;
+}
+
+.card-pricing-active h4{
+    color: #185adb !important;
+}
+
+/* Form */
+.input-custom{
+    transition: 600ms;
+    border:  3px solid #fff !important;
+}
+
+.input-custom:focus{
+    border:  3px solid #185adb !important;
+}
+
+.input-custom-textarea{
+    transition: 600ms;
+    border:  3px solid #fff !important;
+    border-radius: 16px !important;
+}
+
+.input-custom-textarea:focus{
+    border:  3px solid #185adb !important;
+}
+
+/* map */
+#map {
+  width: 100%;
+  /* The width is the width of the web page */
+}
+

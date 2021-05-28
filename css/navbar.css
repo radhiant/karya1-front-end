@@ -1,0 +1,28 @@
+.navbar{
+    transition: 300ms;
+}
+.navbar-nav .nav-item{
+    font-weight: bold;
+}
+
+.navbar-nav .active{
+    color: #185adb !important;
+}
+
+.nav-link:hover{
+    color: #185adb !important;
+}
+
+.btn-nav{
+    background-color: #185adb !important;
+    transition: 300ms;
+    font-weight: bold;
+    color: #fff;
+    width: 120px;
+    box-shadow: 0px 5px 20px #1859db8e;
+}
+
+.btn-nav:hover{
+    background-color: #11409e !important;
+    color: #fff;
+}
